@@ -1,0 +1,224 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "minestory_test-1.21.4",
+      "name": "minestory (Minecraft 1.21.4)",
+      "description": "minestory Running Minecraft 1.21.4 (Fabric v0.16.14)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://github.com/mchdistro/minestory/raw/main/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "dc81d4132e0dc86dd1bfd27d9d1921c8",
+                "url": "https://github.com/mchdistro/minestory/raw/main/repo/versions/1.21.4-fabric-0.16.14/1.21.4-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://github.com/mchdistro/minestory/raw/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://github.com/mchdistro/minestory/raw/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://github.com/mchdistro/minestory/raw/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://github.com/mchdistro/minestory/raw/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://github.com/mchdistro/minestory/raw/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://github.com/mchdistro/minestory/raw/main/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://github.com/mchdistro/minestory/raw/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.2+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2147553,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/fabricmods/required/fabric-api-0.119.2+1.21.4.jar",
+            "MD5": "a543174245cd21248bfee7a5a826d718"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/fabricmods/required/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:1.21.4-6.0.0-beta.47@jar",
+          "name": "Journeymap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3514383,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/fabricmods/required/journeymap-fabric-1.21.4-6.0.0-beta.47.jar",
+            "MD5": "8b092f8cca0a96d80eb8eeea24b5ebfd"
+          }
+        },
+        {
+          "id": "com.hyfata.najoan:koreanpatch:1.8.2+mc1.21.3@jar",
+          "name": "Korean Patch",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3277510,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/fabricmods/required/koreanpatch-fabric-1.8.2+mc1.21.3.jar",
+            "MD5": "afac8343404b6eaa6f7ea7665224777f"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797555,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/fabricmods/required/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "MD5": "7a3a807eed9c4868fbe14cecd8bb082d"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.21.4-2.5.30@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6615653,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/fabricmods/required/voicechat-fabric-1.21.4-2.5.30.jar",
+            "MD5": "b8cadad576b8d5fe7e2f55b2f36b0ead"
+          }
+        },
+        {
+          "id": "elitemobs_resource_pack.zip",
+          "name": "elitemobs_resource_pack.zip",
+          "type": "File",
+          "artifact": {
+            "size": 16270812,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/files/resourcepacks/elitemobs_resource_pack.zip",
+            "MD5": "280f4c2ae39aa9e9a940bb7252657e10",
+            "path": "resourcepacks/elitemobs_resource_pack.zip"
+          }
+        },
+        {
+          "id": "ComplementaryUnbound_r5.5.1.zip",
+          "name": "ComplementaryUnbound_r5.5.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 456332,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/files/shaderpacks/ComplementaryUnbound_r5.5.1.zip",
+            "MD5": "576ef06da170458879f3a03e685d487a",
+            "path": "shaderpacks/ComplementaryUnbound_r5.5.1.zip"
+          }
+        },
+        {
+          "id": "Sildur's Vibrant Shaders v1.53 Medium.zip",
+          "name": "Sildur's Vibrant Shaders v1.53 Medium.zip",
+          "type": "File",
+          "artifact": {
+            "size": 142562,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/files/shaderpacks/Sildur's%20Vibrant%20Shaders%20v1.53%20Medium.zip",
+            "MD5": "37af59c170b5638ebc0c6261a2d1eea1",
+            "path": "shaderpacks/Sildur's Vibrant Shaders v1.53 Medium.zip"
+          }
+        }
+      ]
+    }
+  ]
+}
