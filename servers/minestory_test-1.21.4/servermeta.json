@@ -2,17 +2,17 @@
   "$schema": "file:///D:/Coding/Projects/mchlauncher/Distro/minestory/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "minestory (Minecraft 1.21.4)",
-    "description": "minestory Running Minecraft 1.21.4 (Fabric v0.16.14)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "name": "minestory",
+    "description": "Minecraft 1.21.4 (Fabric v0.16.14)",
+    "icon": "https://github.com/mchdistro/minestory/raw/main/server-icon.png",
+    "address": "minestory.alcl.kr",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": false,
-    "autoconnect": false
+    "mainServer": true,
+    "autoconnect": true
   },
   "fabric": {
     "version": "0.16.14"

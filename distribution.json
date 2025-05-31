@@ -9,19 +9,19 @@
   "servers": [
     {
       "id": "minestory_test-1.21.4",
-      "name": "minestory (Minecraft 1.21.4)",
-      "description": "minestory Running Minecraft 1.21.4 (Fabric v0.16.14)",
-      "icon": null,
+      "name": "minestory",
+      "description": "Minecraft 1.21.4 (Fabric v0.16.14)",
+      "icon": "https://github.com/mchdistro/minestory/raw/main/server-icon.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "minestory.alcl.kr",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": false,
-      "autoconnect": false,
+      "mainServer": true,
+      "autoconnect": true,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.16.14",
