@@ -186,6 +186,16 @@
           }
         },
         {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 266,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/files/options.txt",
+            "path": "options.txt"
+          }
+        },
+        {
           "id": "elitemobs_resource_pack.zip",
           "name": "elitemobs_resource_pack.zip",
           "type": "File",
@@ -194,6 +204,17 @@
             "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/files/resourcepacks/elitemobs_resource_pack.zip",
             "MD5": "280f4c2ae39aa9e9a940bb7252657e10",
             "path": "resourcepacks/elitemobs_resource_pack.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 162,
+            "url": "https://github.com/mchdistro/minestory/raw/main/servers/minestory_test-1.21.4/files/servers.dat",
+            "MD5": "347e719388236da1e8d9ed4a1632ed2b",
+            "path": "servers.dat"
           }
         },
         {
