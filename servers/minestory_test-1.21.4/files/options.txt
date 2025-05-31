@@ -1,0 +1,10 @@
+version:4189
+narrator:0
+autoJump:false
+resourcePacks:["vanilla","fabric","file/elitemobs_resource_pack.zip"]
+incompatibleResourcePacks:["koreanpatch"]
+lang:ko_kr
+tutorialStep:none
+skipMultiplayerWarning:true
+joinedFirstServer:true
+onboardAccessibility:false
